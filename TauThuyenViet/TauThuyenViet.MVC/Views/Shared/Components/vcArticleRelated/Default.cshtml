@@ -1,0 +1,22 @@
+﻿@model List<Article>
+
+<aside>
+	<h2>
+		CÁC TIN TỨC KHÁC
+	</h2>
+	<ul class="row article-other">
+		@foreach (var item in Model)
+		{
+			<li class="col-6 col-lg-4">
+				<a asp-route="ArticleDetail"
+				   asp-route-id ="@item.ArticleID"
+				   asp-route-title ="@item.Title.ToUrlFormat()">
+					<img class="img-fluid img-thumbnail" src="@item.Avatar" />
+					<span>
+						@item.Title
+					</span>
+				</a>
+			</li>
+		}
+	</ul>
+</aside>

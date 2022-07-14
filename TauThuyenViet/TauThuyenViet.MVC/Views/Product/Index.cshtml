@@ -1,0 +1,50 @@
+﻿@model List<Product>
+
+<section id="product-list">
+	
+	@*<vc:vc-product-tab "/>*@
+
+	<div class="container-fluid">
+		<div class="row mansory">
+			@foreach (var item in Model)
+			{
+				<div class="item">
+					<a asp-route="ProductDetail"
+					   asp-route-id ="@item.ProductID"
+					   asp-route-title ="@item.Title.ToUrlFormat()">
+						<img class="img-fluid" src="@item.ImageList.GetFirstImage()" />
+						<span>
+							@item.Title
+						</span>
+					</a>
+				</div>
+			}
+		</div>
+	</div>
+	<ul class="pagination justify-content-center">
+		<li class="page-item">
+			<a class="page-link" href="#" tabindex="-1">
+				<i class="fa fa-angle-double-left"></i>
+			</a>
+		</li>
+		<li class="page-item">
+			<a class="page-link" href="#" tabindex="-1">
+				<i class="fa fa-angle-left"></i>
+			</a>
+		</li>
+		<li class="page-item"><a class="page-link" href="#">1</a></li>
+		<li class="page-item active"><a class="page-link" href="#">2</a></li>
+		<li class="page-item"><a class="page-link" href="#">3</a></li>
+		<li class="page-item">
+			<a class="page-link" href="#">
+				<i class="fa fa-angle-right"></i>
+			</a>
+		</li>
+		<li class="page-item">
+			<a class="page-link" href="#">
+				<i class="fa fa-angle-double-right"></i>
+			</a>
+		</li>
+	</ul>
+	<div class="clearfix pt-3"></div>
+</section>

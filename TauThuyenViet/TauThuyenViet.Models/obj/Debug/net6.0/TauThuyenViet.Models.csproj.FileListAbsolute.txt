@@ -1,0 +1,14 @@
+D:\TauThuyenVietAPI\TauThuyenViet\TauThuyenViet.Models\bin\Debug\net6.0\TauThuyenViet.Models.deps.json
+D:\TauThuyenVietAPI\TauThuyenViet\TauThuyenViet.Models\bin\Debug\net6.0\TauThuyenViet.Models.runtimeconfig.json
+D:\TauThuyenVietAPI\TauThuyenViet\TauThuyenViet.Models\bin\Debug\net6.0\TauThuyenViet.Models.dll
+D:\TauThuyenVietAPI\TauThuyenViet\TauThuyenViet.Models\bin\Debug\net6.0\TauThuyenViet.Models.pdb
+D:\TauThuyenVietAPI\TauThuyenViet\TauThuyenViet.Models\obj\Debug\net6.0\TauThuyenViet.Models.csproj.AssemblyReference.cache
+D:\TauThuyenVietAPI\TauThuyenViet\TauThuyenViet.Models\obj\Debug\net6.0\TauThuyenViet.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\TauThuyenVietAPI\TauThuyenViet\TauThuyenViet.Models\obj\Debug\net6.0\TauThuyenViet.Models.AssemblyInfoInputs.cache
+D:\TauThuyenVietAPI\TauThuyenViet\TauThuyenViet.Models\obj\Debug\net6.0\TauThuyenViet.Models.AssemblyInfo.cs
+D:\TauThuyenVietAPI\TauThuyenViet\TauThuyenViet.Models\obj\Debug\net6.0\TauThuyenViet.Models.csproj.CoreCompileInputs.cache
+D:\TauThuyenVietAPI\TauThuyenViet\TauThuyenViet.Models\obj\Debug\net6.0\TauThuyenViet.Models.dll
+D:\TauThuyenVietAPI\TauThuyenViet\TauThuyenViet.Models\obj\Debug\net6.0\refint\TauThuyenViet.Models.dll
+D:\TauThuyenVietAPI\TauThuyenViet\TauThuyenViet.Models\obj\Debug\net6.0\TauThuyenViet.Models.pdb
+D:\TauThuyenVietAPI\TauThuyenViet\TauThuyenViet.Models\obj\Debug\net6.0\TauThuyenViet.Models.genruntimeconfig.cache
+D:\TauThuyenVietAPI\TauThuyenViet\TauThuyenViet.Models\obj\Debug\net6.0\ref\TauThuyenViet.Models.dll

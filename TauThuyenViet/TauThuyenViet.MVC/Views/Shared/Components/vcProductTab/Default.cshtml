@@ -1,0 +1,16 @@
+﻿@model List<ProductMainCategory>
+
+<ul class="nav nav-tabs nav-justified">
+	@foreach (var item in Model)
+	{
+		<li class="nav-item">
+			<a class="nav-link active" asp-route="ProductListByID"
+									   asp-route-mid="@item.ProductMainCategoryID"
+									   asp-route-cid="0"
+									   asp-route-title="@item.Title.ToUrlFormat()">
+				<img class="img-fluid" src="@item.Thumb" />
+			</a>
+		</li>
+	}
+
+</ul>
